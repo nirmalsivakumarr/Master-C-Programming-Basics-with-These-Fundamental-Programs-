@@ -1,0 +1,82 @@
+6.	PROGRAM FOR SHOWCASING STUDENT DETAILS.
+____________________________________________________
+
+#include<stdio.h>
+int main(){
+    int roll,sem,a,b,c,d,e,f,g,tot;
+    float avg;
+    char*name,dept;
+    printf("Student Details\n------------------\n");
+    printf("Student name: ");
+    scanf("%s",&name);
+    printf("Roll no: ");
+    scanf("%d",&roll);
+    printf("department: ");
+    scanf("%s",&dept);
+    printf("semester: ");
+    scanf("%d",&sem);
+    printf("--------------------------\nsubject marks details\n---------------------\n");
+    printf("subject 1 mark: ");
+    scanf("%d",&a);
+     printf("subject 2 mark: ");
+    scanf("%d",&b);
+     printf("subject 3 mark: ");
+    scanf("%d",&c);
+     printf("subject 4 mark: ");
+    scanf("%d",&d);
+     printf("subject 5 mark: ");
+    scanf("%d",&e);
+     printf("subject 6 mark: ");
+    scanf("%d",&f);
+     printf("subject 7 mark: ");
+    scanf("%d",&g);
+    printf("-----------------------------\n");
+    tot=a+b+c+d+e+f+g;
+    printf("total= %d\n",tot);
+    avg=tot/7;
+    printf("Average of the mark is %.2f\n",avg);
+    printf("-------------------------------\n");
+    if(tot>150)
+    {
+        if(tot>400)
+        {
+            printf("A grade");
+        }
+        else if(tot>300)
+        {
+            printf("B grade");
+        }
+        else
+        {
+            printf("C grade");
+        }
+       
+    }
+    else{
+        printf("Fail");
+    }
+    return 0;
+}
+OUTPUT : 
+
+Student Details
+------------------
+Student name: Nirmal S T
+Roll no: 33
+department: mech
+semester: 2
+--------------------------
+subject marks details
+---------------------
+subject 1 mark: 76
+subject 2 mark: 67
+subject 3 mark: 98
+subject 4 mark: 99
+subject 5 mark: 85
+subject 6 mark: 76
+subject 7 mark: 87
+-----------------------------
+total= 588
+Average of the mark is 84.00
+-------------------------------
+A grade
