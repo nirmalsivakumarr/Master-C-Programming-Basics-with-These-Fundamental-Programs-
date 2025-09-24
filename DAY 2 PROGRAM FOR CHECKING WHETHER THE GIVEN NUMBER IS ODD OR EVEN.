@@ -1,4 +1,4 @@
-6.	PROGRAM FOR SHOWCASING STUDENT DETAILS.
+6.	PROGRAM FOR CHECKING WHETHER THE GIVEN NUMBER IS ODD OR EVEN.
 ____________________________________________________
 
 #include<stdio.h>
@@ -80,3 +80,4 @@ total= 588
 Average of the mark is 84.00
 -------------------------------
 A grade
+
