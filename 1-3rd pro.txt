@@ -1,0 +1,26 @@
+Program 3: Program for understanding the Increment and decrement operators.
+___________________________________________________________________________
+
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    printf("Original value: %d\n", num);
+    num++; 
+    printf("After increment (num++): %d\n", num); 
+    num--;  
+    printf("After decrement (num--): %d\n", num);
+    printf("Pre-increment (++num): %d\n", ++num); 
+    printf("Pre-decrement (--num): %d\n", --num); 
+    return 0;
+}
+
+Output:
+Enter an integer: 4
+Original value: 4
+After increment (num++): 5
+After decrement (num--): 4
+Pre-increment (++num): 5
+Pre-decrement (--num): 4
+

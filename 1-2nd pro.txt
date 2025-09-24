@@ -1,0 +1,21 @@
+Program 2: Program to understand Conditional statements.
+____________________________________________________________
+
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if (num > 0) {
+        printf("The number %d is positive.\n", num);
+    } else if (num < 0) {
+        printf("The number %d is negative.\n", num);
+    } else {
+        printf("The number is zero.\n");
+    }
+    return 0;
+}
+Output:
+
+Enter an integer: 5
+The number 5 is positive.
